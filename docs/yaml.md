@@ -29,3 +29,7 @@ after:
 YAML recipes can include recipes written in PHP. For example, some tasks maybe written in PHP and imported in YAML.
 
 Also, other way around is possible: import YAML recipe from PHP. Use [import()](api.md#import) function for that.
+
+:::warning
+In your config file, you need to import at least one recipe. Without it you will have an issue about command `deploy` not found
+:::
